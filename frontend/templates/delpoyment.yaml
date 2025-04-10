@@ -31,7 +31,7 @@ spec:
               path: nginx.conf
       containers:
       - name: nginx
-        image: joindevops/frontend:{{ .Values.deployment.version }}
+        image: learn25/frontend:{{ .Values.deployment.version }}
         resources:
           # soft limit
           requests:

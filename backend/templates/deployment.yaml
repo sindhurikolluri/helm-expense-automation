@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: joindevops/backend:{{ .Values.deployment.version }}
+        image: learn25/backend:{{ .Values.deployment.version }}
         envFrom:
         - configMapRef:
             name: backend
